@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  border: 0;
+}
+
+.header {
+  color: black;
+  font-size: 20px;
+  font-style: oblique;
+  margin-bottom: 0px;
+}
+
+.header {
+  grid-area: header;
+  background-color: #100886;
+  background-image: url(https://i.pinimg.com/originals/db/15/5e/db155e9a49acbadb52de0ed7bf1d8ede.png);
+  /* background: linear-gradient(90deg, #b113316d 33%, #861b086d 35%, #1008866d 84%, #1008866d 90%); */
+}
+
+.header nav a:hover {
+  background-color: #0000FF;
+  transform: scale(130%);
+}
+
+.header img {
+  left: -244px;
+  bottom: -321px;
+}
+
+.header h1 {
+  color: white;
+}
+
+.main {
+  display: grid;
+  grid-area: main;
+  background-color: #100886;
+  border: solid black;
+  color: white;
+}
+
+.main div img {
+  max-width: 489px;
+}
+
+.main div p {
+  padding-top: 20px;
+  border: solid white;
+}
+
+.main section h2 {
+  padding-top: 20px;
+  font-size: large;
+}
+
+.main section p {
+  border: 20px;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.main h2 img {
+  width: 489px;
+}
+
+.footer {
+  height: 200px;
+  grid-area: footer;
+  background-color: #0a0958;
+}
+
+.footer i {
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+
+.nav {
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid;
+  background-color: #b11331;
+  font-family: "Arvo", serif;
+  font-family: "Joan", serif;
+  background-color: #0000FF;
+  transform: scaleX(150%);
+  background: linear-gradient(90deg, rgba(19, 38, 177, 0.4274509804) 6%, rgba(201, 22, 74, 0.4274509804) 27%, rgba(16, 7, 134, 0.4274509804) 86%);
+}
+
+.nav li {
+  list-style: none;
+  padding: 20px;
+  height: 30px;
+}
+
+.nav li:hover {
+  background-color: #0000FF;
+  transform: scaleX(150%);
+  background: linear-gradient(90deg, rgba(19, 38, 177, 0.4274509804) 6%, rgba(201, 22, 74, 0.4274509804) 27%, rgba(16, 7, 134, 0.4274509804) 86%);
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "header header header" "nav main main" "footer footer footer";
+  background-color: #0a0958;
+}
+
+.logo img {
+  max-width: px;
+  position: relative;
+  margin-left: 0%;
+  border: double red;
+}/*# sourceMappingURL=style.css.map */

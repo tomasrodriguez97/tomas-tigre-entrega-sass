@@ -1,0 +1,21 @@
+.header {
+    grid-area: header;
+    background-color: #100886;
+    background-image: url(https://i.pinimg.com/originals/db/15/5e/db155e9a49acbadb52de0ed7bf1d8ede.png);
+    @extend %estiloparrafo;
+    /* background: linear-gradient(90deg, #b113316d 33%, #861b086d 35%, #1008866d 84%, #1008866d 90%); */
+  }
+  
+  .header nav a:hover {
+    background-color:$backgroundcolor;
+    transform: scale(130%);
+  }
+  
+  .header img {
+    left: -244px;
+    bottom: -321px;
+  }
+  .header h1 { 
+    color: white;
+
+  }

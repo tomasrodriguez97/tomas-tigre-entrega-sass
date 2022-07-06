@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    border: 0;
+}
+@import "./variables/extend";
+@import "./variables/colores";
+
+@import "./secciones/header.scss";
+@import "./secciones/main.scss";
+@import "./secciones/footer.scss";
+@import "./secciones/nav.scss";
+@import "./secciones/body.scss";
+
+
+
+
+

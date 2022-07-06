@@ -1,0 +1,29 @@
+.nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    background-color: #b11331;
+    font-family: "Arvo", serif;
+    font-family: "Joan", serif;
+    background-color:$backgroundcolor;
+    transform: scaleX(150%);
+    background: linear-gradient(90deg, rgba(19, 38, 177, 0.4274509804) 6%, rgba(201, 22, 74, 0.4274509804) 27%, rgba(16, 7, 134, 0.4274509804) 86%);
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 20px;
+    height: 30px;
+  }
+  
+  .nav li:hover {
+    background-color: $backgroundcolor;
+    transform: scaleX(150%);
+    background: linear-gradient(90deg, rgba(19, 38, 177, 0.4274509804) 6%, rgba(201, 22, 74, 0.4274509804) 27%, rgba(16, 7, 134, 0.4274509804) 86%);
+  }
+  
+  nav ul a {
+    text-decoration: none;
+  }

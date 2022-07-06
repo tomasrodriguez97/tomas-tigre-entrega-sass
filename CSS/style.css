@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.block {
+    background-color: red;
+    border-top: solid 3px black;
+    border: solid 3px blue;
+    margin-left: 35%;
+    padding: 8px;
+    padding-left: 100px;
+    width: 280px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+    font-family: 'Joan', serif;
+    color: blue
+}
+
+
+.inline {
+    display: grid;
+
+    background-color: darkgoldenrod;
+    border: solid 3px black;
+    margin: 20px;
+    padding: 15px;
+    width: 271px;
+    height: 440px;
+}
+
+.inline-block {
+    background-color: red;
+    border-radius: 50;
+    border: solid 3px blue;
+    display: grid;
+    width: 100px;
+    height: 55px;
+    ;
+}
+
+
+
+
+
+
+
+
+
+.titularNoticia {
+    display: inline-block;
+    margin-left: 37%;
+    color: white;
+
+
+}
+
+
+
+.primeraParte {
+    margin-bottom: 50px;
+
+}
+
+
+
+
+/* /* .header nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    height: 220px;
+    justify-content: space-evenly;
+    font-family: 'Arvo', serif;
+    font-family: 'Joan', serif; */
+
+/* } */
+
+
+
+/* 
+.header h1 {
+    color: white;
+} */
+
+/* .header nav ul a {
+    color: white;
+} */
+.bg-primary {
+    margin-top: 0px;
+}
+
+
+.imagenHinchada {
+    margin-left: 75%;
+    width: 450px;
+    height: 150px;
+}
+
+.color {
+    font-style: initial;
+    font-size: large;
+    color: red;
+}
+
+.fotoTrofeo {
+    margin-left: 30%;
+    padding: auto;
+}
+
+.span {
+    background-color: red;
+    border: solid double;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-family: 'Joan', serif;
+
+
+}
+
+
+
+
+
+
+
+@media only screen 
+   and (max-width : 320px) {
+   
+
+
+
+.header {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+
+.container-fluid {
+    flex-direction: column;
+}
+
+
+.main {
+    max-width: 20%;
+    ;
+
+}
+
+.container-fluid {
+    display: grid;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main {
+    flex-direction: column;
+}
+
+
+.main img {
+    width: 228px;
+}
+
+.div img {
+    width: 800px;
+}
+   }

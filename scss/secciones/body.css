@@ -1,0 +1,14 @@
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "header header header" "nav main main" "footer footer footer";
+}
+
+.logo img {
+  max-width: px;
+  position: relative;
+  margin-left: 0%;
+  border: double red;
+}/*# sourceMappingURL=body.css.map */
